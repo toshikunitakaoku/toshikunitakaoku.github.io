@@ -1,0 +1,29 @@
+#body {
+  background: lightyellow;
+}
+
+.row {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.row > div {
+  margin: 50px 0;
+}
+
+.row > div > a {
+  padding: 1em 20%;
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  display: none;
+}
+
+.container.is-show {
+  display: block;
+}
+
+
+
